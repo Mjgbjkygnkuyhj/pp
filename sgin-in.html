@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/password.css' rel='stylesheet'>
+    <link rel="stylesheet" href="sign-in.css">
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <title>Sign in</title>
+</head>
+<body>
+    <div class="container">
+        <div class="hello-star">
+         <p>hello star!</p>
+        </div>
+        <form  method="post" action="php.php">
+     <div class="sign-in">
+        
+        <i for="email" class="fa fa-envelope"></i>
+        <input type="email" name="email" id="email" placeholder="Email" required maxlength="50">
+        
+        <div class="tow">
+            <input class="active" name="password" type="password" id="pass2"placeholder="Password" required maxlength="25"minlength="8">
+            <div class="group2">
+                <i class="fa fa-lock"></i>
+             <i id="icon" class="fa fa-eye-slash"></i>
+            </div>
+           </div>
+        
+       
+        <input type="radio" name="radio" id="radio" value="radio"required >
+        <label for="radio" class="agreement">I've read and agree to the <a href="#">terms & conditions</label>
+       <br> <input type="submit" name="send" style="text-decoration: none;color: #FFF;"value="Sign In">
+       <button type="submit"class="homepage"><a style="text-decoration: none;color: #FFF;" href="index.html">home page</a></button>
+            
+        </form>
+     </div>
+
+    </div>
+
+    </div>
+    <script src="sign-in.js"></script>
+</body>
+</html>

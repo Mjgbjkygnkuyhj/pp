@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap');
+.container
+{
+    text-align: center;
+    padding:auto;
+    
+}
+.hello-star
+{
+    font-size: 52px;
+    font-family:'Rubik';
+    text-transform:capitalize;
+    color: #00507C;
+    font-weight: bold;
+    padding: 50px 100px 0px 100px;
+}
+.sign-in
+{
+    padding: 0px 100px 100px 100px;
+    position: relative;
+}
+#email ,#pass2
+{
+    padding: 20px;
+    width: 400px;
+    border: none;
+    background-color: #FFF;
+    border-radius: 48px;
+    box-shadow: -3px 3px 9px 3px rgba(0, 0,0, .3);
+    text-indent: 25px;
+    margin:10px 300px 10px 300px;
+    color: #00507C;
+    
+}
+#email,#pass2:focus
+{
+    outline: none;
+    text-indent: 25px;
+}
+.fa-envelope
+{
+    color: #00507C;
+    position: absolute;
+    left: 430px;
+    top: 30px;
+}
+.fa-lock
+{
+    color: #00507C;
+    position: absolute;
+    left: 430px;
+    top: 107px;
+}
+.fa-eye-slash
+{
+    color: #00507C;
+    position:absolute;
+    top: 107px;
+    left: 800px;
+}
+.fa-eye
+{
+    color: #00507C;
+    position:absolute;
+    top: 107px;
+    left: 800px;
+}
+#radio
+{
+accent-color: #00507c;
+border:  #00517c47;
+margin-top: 60px;
+margin-left: 2px;
+}
+.agreement
+{
+    font-family: 'Rubik';
+    font-size: 20px;
+    color: #00507C;
+}
+.agreement a 
+{
+    font-family: 'Rubik';
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+
+}
+input[type=submit]
+{
+    padding: 20px;
+    width: 200px;
+    border: none;
+    background-color: #00507C;
+    border-radius: 48px;
+    box-shadow: -3px 3px 9px 3px rgba(0, 0,0, .3);
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 50px 300px 10px 300px;
+    text-transform: capitalize;
+    cursor:pointer;
+
+}
+button[type=submit]{
+    padding: 20px;
+    width: 200px;
+    border: none;
+    background-color: #00507C;
+    border-radius: 48px;
+    box-shadow: -3px 3px 9px 3px rgba(0, 0,0, .3);
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 50px 300px 10px 300px;
+    text-transform: capitalize;
+    cursor:pointer;
+
+}
+.homepage
+{
+    position: relative;
+   left: -450px;
+}
+
+
+

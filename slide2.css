@@ -1,0 +1,45 @@
+:root{
+  --he--:300px
+}
+.hole{
+        max-width: 400px;
+max-height: 700px;
+margin: 0;
+}
+.swiper{
+  width: auto;
+  height: var(--he--);
+  object-fit: cover;
+  padding: 17px 6px;
+
+}
+.swiper-wrapper{
+  padding: 5px;
+
+}
+.swiper-slide{
+      width: 170px;
+  height: calc(var(--he--)-20px);
+}
+.img-book{
+height: 100%;
+width: 100%;
+      border-radius: 8%;
+      object-fit: cover;
+      box-shadow: -16px 8px 9px 1px rgba(0, 0,0, .2);
+
+}
+
+/* اهنا مالت رف */
+  .threshold{margin-top: 7px;
+    max-width: auto;
+    height: 150px;
+
+  }
+  .theshold-book{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  

@@ -1,0 +1,253 @@
+div
+{
+    position:fixed;
+    left: 400px;
+    bottom: 150px;
+    top: 60px;
+    background-color: white;
+    color: black;
+    width: 500px;
+    border: 2px solid #24AB70;
+    color: #555555;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px #24AB70;
+}
+
+.start
+{
+    font-size: 60px;
+    font-weight: bold;
+    color: #222;
+    position: relative;
+    margin: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.email
+{
+
+    border: 1px solid #222 ;
+    border-radius: 10px;
+    color: #222;
+    margin: 30px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    bottom: 236px;
+    text-indent: 18px;
+    background-color: #eee;
+}
+.imag2
+{
+    width: 13px;
+    height: 15px;
+    background-color: #eee;
+    position: relative;
+    left: -326px;
+    top: -21px;
+
+}
+.password
+{
+    border: 1px solid #222 ;
+    border-radius: 10px;
+    color: #222;
+    margin: 50px;
+    height: 20px;
+    position: absolute;
+    left: -20px;
+    text-indent: 18px;
+    background-color: #eee;
+}
+.imag3
+{
+    width: 13px;
+    height: 13px;
+    background-color: #eee;
+    position: relative;
+    left: -342px;
+    top: 34px;
+}
+
+
+
+.sub
+{
+    padding:10px 25px;
+    color:white;
+    background-color: #24AB70;
+    border-radius: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-transform: uppercase;
+    position: relative;
+    left: -45px;
+    bottom:  -185px;
+    text-decoration: none;
+}
+.Register
+{
+    position: relative;
+    left: 90px;
+    bottom: -185px;
+    padding: 10px 25px;
+    color: white;
+    background-color: #24AB70;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.trb
+{
+    text-decoration: none;
+    position: absolute;
+    color: #24AB70;
+    left: 59px;
+    top: 298px;
+}
+
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+
+@media (min-width:375px) and (max-width:667px)
+{
+  div 
+  {
+    position: absolute;
+    left: 35px;
+    width: 300px;
+    
+  }
+  .start
+  {
+    position: relative;
+    top: -40px;
+  }
+  .name,.password,.email
+  {
+    position:relative;
+    top: -80px;
+    left: 5px;
+    margin: 6px;
+  }
+  .text
+  {
+    position:relative;
+    top: -82px;
+    left: -5px;
+  }
+  .th
+  {
+    position: relative;
+    top: 1px;
+    left: -2px;
+  }
+  .button
+  {
+ 
+    
+  }
+  .sub
+  {
+    position: absolute;
+    left: 77px;
+    bottom: 77px;
+  }
+  .sgin-in
+  {
+    position: relative;
+    bottom: -153px;
+  }
+}
+@media (min-width:375px) and (max-width:667px)
+{
+    .reg
+    {
+        position: absolute;
+        top: 640px;
+        left: 77px;
+    }
+    .sgin-in
+    {
+        bottom:  -266px;
+        left: 86px;
+    }
+    .name ,.password ,.email
+    {
+        top: 21px;
+    }
+    .button,.text
+    {
+        position: relative;
+        top: 32px;
+    }
+    .th
+    {
+        top: 0px;
+    }
+    .start
+    {
+        top: 0px;
+    }
+}
+@media (min-width:360px) and (max-width:740px)
+{
+  div 
+  {
+    position: absolute;
+    left: 25px;
+    width: 300px;
+    
+  }
+  .start
+  {
+    position: relative;
+    top: -40px;
+  }
+  .name,.password,.email
+  {
+    position:relative;
+    top: -80px;
+    left: 5px;
+    margin: 6px;
+  }
+  .text
+  {
+    position:relative;
+    top: -59px;
+    left: -1px;
+  }
+  .th
+  {
+    position: relative;
+    top: 1px;
+    left: -2px;
+  }
+  .button
+  {
+    position: relative;
+    bottom: 58px;
+    left: -3px;
+  }
+  .sub
+  {
+    position: absolute;
+    left: 77px;
+    bottom: 77px;
+  }
+  .sgin-in
+  {
+    position: relative;
+    bottom: -213px;
+  }
+  .reg
+  {
+    bottom: -246px;
+  }
+}
